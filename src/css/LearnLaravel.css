@@ -19,7 +19,7 @@
 }
 
 .cmd {
-    background: rgba(0, 0, 0, 0.199);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255) !important;
     border: 1px dashed rgb(255, 255, 255);
     width: max-content;
@@ -32,6 +32,7 @@
     backdrop-filter: blur(10px);
     font-family: monospace;
     font-size: 14px;
+    padding: 5px;
 }
 
 .nota {

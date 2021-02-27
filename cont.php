@@ -77,7 +77,17 @@
                     <div class="no-option">
                         <h1>Elije una de las opciones del menú.</h1>
 
-                        <a href="https://francobg1.github.io/in/">Enlace a la página anterior</a>
+                        <a href="https://francobg1.github.io/in/">Enlace a la página antigua</a>
+
+                        <div class="lista" style="background-color: #363636;">
+                            <?php
+                            if ("" != "") {
+                                echo "<a> sin lista</a>";
+                            } else {
+                                lista();
+                            }
+                            ?>
+                        </div>
 
                     </div>
 

@@ -58,7 +58,7 @@
 .img-principal {
     width: 100%;
     height: auto;
-    background-color: #000000
+    background-color: #000000;
 }
 
 .img-principal img {
@@ -185,7 +185,6 @@
 
 .btn-next a:hover {
     background-color: rgb(255, 46, 46) !important;
-    padding: 7px;
 }
 
 /**/
@@ -310,4 +309,10 @@ header li a:hover {
     font-size: 3vw;
     text-align: center;
     text-shadow: 0px 0px 3px #363636;
+}
+
+textarea {
+    resize: none;
+    background-color: #363636;
+    color: white;
 }
