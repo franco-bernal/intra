@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrCodes | Home</title>
+    <link rel="shortcut icon" href="src/img/ico.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/bulma.min.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <style>
+
+    </style>
+    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="scrol">
+
+
+    <div class="hero">
+        <div class="hero-body">
+
+
+            <header>
+                <img src="src/img/ico.png" alt="">
+                <nav>
+                    <ul>
+
+                        <li>
+                            <a href="cont.php">Notas</a>
+                        </li>
+                        <li>
+                            <a href="formulario.php">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <section class="home-section">
+                <div>
+                    <h1 class="my-10">Nombre</h1>
+                    <p>Revisa contenido que podríamos ocupar, aprender y usar</p>
+                </div>
+            </section>
+
+
+
+
+        </div>
+    </div>
+    <script>
+
+        $(document).ready(function () {
+            $(".n-m").hide("fast");
+            if ($('html').width() > 767) {
+                $(".n-m").show("fast");
+            }
+            $(window).resize(function () {
+                if ($('html').width() > 767) {
+                    $(".n-m").show("fast");
+                } else {
+                    $(".n-m").hide("fast");
+
+                }
+            });
+
+
+            $("#mostrar").click(function () {
+                $(".n-m").toggle("fast");
+            });
+
+            $(".all").click(function () {
+                if ($(".naveg").width() > 0) {
+                    $(".naveg").animate({ width: '0%', opacity: '1' }, "slow");
+                    $(".content").animate({ width: '100%', opacity: '1' }, "slow");
+                } else {
+                    $(".naveg").animate({ width: '20%', opacity: '1' }, "fast");
+                    $(".content").animate({ width: '80%', opacity: '1' }, "fast");
+                }
+                /*  */
+            });
+        });
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

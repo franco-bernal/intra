@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'logo';
+    src: url('../fonts/Distort\ Me.otf') format('woff2'), url('../fonts/Distort\ Me.otf') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
