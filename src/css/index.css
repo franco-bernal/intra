@@ -23,13 +23,16 @@
     height: 100vh;
     background-color: #363636;
     display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .burger .first {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 245, 245);
     display: block;
     text-align: center;
+    margin: 20px;
 }
 
 .burger .x-burger {
@@ -37,6 +40,7 @@
     color: white;
     text-align: right;
     padding: 1vw;
+    margin-bottom: 50px;
 }
 
 .lista {
@@ -50,9 +54,13 @@
 .lista a {
     display: block;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     color: white;
     font-size: 10px;
+}
+
+.burger a:hover {
+    color: turquoise;
 }
 
 .img-principal {
@@ -78,11 +86,34 @@
 .content-section h3 {
     font-size: 20px;
     padding: 1vw;
+    background-color: #363636;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .content-section h4 {
     font-size: 20px;
     padding: 1vw;
+    color: white;
+    background-color: #363636;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.content-section h2 {
+    font-size: 16px;
+    padding: 1vw;
+    color: white;
+    background-color: #ba9f7b;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.content-section i {
+    color: turquoise;
+    text-shadow: 0 0 1px turquoise;
+    border-bottom: 1px solid #363636;
 }
 
 /*FORMMMMMMMMMMMMMMMMMMMMMMMM*/
@@ -173,6 +204,7 @@
     border-radius: 5px;
     position: absolute;
     text-align: center;
+    transition: background-color 0.3s;
 }
 
 .btn-next a:first-child {
@@ -184,7 +216,8 @@
 }
 
 .btn-next a:hover {
-    background-color: rgb(255, 46, 46) !important;
+    background-color: turquoise !important;
+    transition: background-color 0.3s;
 }
 
 /**/
@@ -246,7 +279,6 @@ header {
     float: left;
     padding: 5px;
     background-color: #363636;
-    position: ;
 }
 
 header img {
@@ -265,6 +297,8 @@ header nav {
 header li {
     float: right;
     padding: 0.5%;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 header li a {
@@ -274,8 +308,43 @@ header li a {
 }
 
 header li a:hover {
-    color: var(--dos);
+    color: turquoise;
     transition: color 0.3s;
+}
+
+@media(max-width:769px) {
+    header {
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 5px;
+        background-color: #363636;
+    }
+    header img {
+        float: left;
+        width: auto;
+        height: 25px;
+        margin-left: 1vw;
+    }
+    header nav {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    header li {
+        float: right;
+        padding: 0.5%;
+    }
+    header li a {
+        color: white;
+        padding: 2px;
+        transition: color 0.3s;
+    }
+    header li a:hover {
+        color: turquoise;
+        transition: color 0.3s;
+    }
 }
 
 .home-section {
@@ -283,12 +352,14 @@ header li a:hover {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
+    float: left;
+    width: 100%;
 }
 
 .home-section div {
     position: relative;
-    top: 40%;
+    top: 30%;
 }
 
 .home-section h1 {

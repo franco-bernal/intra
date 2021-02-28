@@ -26,6 +26,10 @@ input {
     width: 100%;
 }
 
+a:hover {
+    color: turquoise;
+}
+
 .hero-head {}
 
 .hero-body {

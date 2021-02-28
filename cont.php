@@ -96,6 +96,10 @@
                     pagina($p, $n);
                 }
                 ?>
+                <div style="background-color: #363636; width:100%;height: auto; padding:10px; margin-top:20px">
+                    <p style="color:white">advertisements</p>
+                    <img src="src/img/Primer_cartel_de_Chopper.png" class="centrar" width="300px" height="auto" alt="" style="margin-top: 10px;">
+                </div>
             </section>
 
 
