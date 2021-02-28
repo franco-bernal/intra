@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrCodes | Notas</title>
+    <title>Nombre | Notas</title>
     <link rel="shortcut icon" href="src/img/ico.png" type="image/x-icon">
 
     <link rel="stylesheet" href="src/css/bulma.min.css">
