@@ -147,10 +147,8 @@
 
 .formulario .titulo h1 {
     margin-top: 0px;
-    font-size: 5vw;
+    font-size: 50px;
     color: rgb(0, 0, 0);
-    text-shadow: 0px 0px 20px black;
-    font-family: 'logo';
 }
 
 .formulario .titulo h1:hover {

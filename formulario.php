@@ -13,15 +13,8 @@
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/LearnLaravel.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="jqueryui/style.css">
 
-    <script>
-        $(function() {
-            $("#draggable").draggable();
-        });
-    </script>
+
     <?php include 'src/php/prog.php'; ?>
     <?php
     if (isset($_GET["var1"])) {
@@ -66,25 +59,14 @@
             </header>
 
             <div class="all">
-                <div class="naveg">
-                    <div class="naveg-cont">
-                        <?php
-                        if ("" != "") {
-                            echo "<a> sin lista</a>";
-                        } else {
-                            lista();
-                        }
-                        ?>
 
-                    </div>
-                </div>
                 <div class="content centrar-full">
                     <div class="c-cont">
                         <div class="hero-section">
                             <div class="sec-form " id="formula">
                                 <div class=" formulario">
                                     <div class="titulo centrar-full">
-                                        <h1>Contacto</h1>
+                                        <h1>¡HABLEMOS!</h1>
                                     </div>
                                     <div class="cuerpo-form ">
                                         <form method="POST" action="correo.php" name="enviar" class="formulario-contacto" id="limpiar-form">
@@ -188,7 +170,6 @@
     <!--MODAL -->
     <script src="src/js/SinRedire.js"></script>
     <script src="src/js/modal.js"></script>
-    <img id="draggable" src="src/img/pngegg (2).png" alt="">
 
 </body>
 
