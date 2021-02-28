@@ -43,31 +43,27 @@
     <div class="hero">
         <div class="hero-body">
 
-            <div class="nave">
-                <div class="columns is-gapless  is-multiline">
-                    <div class="column logo centrar-full is-2-fullhd is-2-desktop  is-2-tablet  is-12-mobile ">
-                        <a id="mostrar">
-                            <h1>FrCodes</h1>
 
-                        </a>
-                    </div>
-                    <div class="column is-3-fullhd is-1-desktop  is-1-tablet  is-12-mobile  is-hidden-mobile">
-                    </div>
-                    <div class="column n-m centrar-full is-1-fullhd is-2-desktop  is-2-tablet  is-12-mobile">
-                        <a href="pruebas/">menu</a>
-                    </div>
-                    <div class="column n-m centrar-full is-1-fullhd is-2-desktop  is-2-tablet  is-12-mobile ">
-                        <a href="index.html">Home</a>
-                    </div>
-                    <div class="column n-m centrar-full is-1-fullhd is-2-desktop  is-2-tablet  is-12-mobile ">
-                        <a href="cont.php">Notas</a>
-                    </div>
-                    <div class="column n-m centrar-full is-1-fullhd is-2-desktop  is-2-tablet  is-12-mobile ">
-                        <a href="pruebas/robot/index.html">Pruebas</a>
-                    </div>
-                </div>
+            <header>
+                <img src="src/img/ico.png" alt="">
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="lista">Lista</a>
+                        </li>
+                        <li>
+                            <a href="cont.php">Notas</a>
+                        </li>
+                        <li>
+                            <a href="formulario.php">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </nav>
 
-            </div>
+            </header>
 
             <div class="all">
                 <div class="naveg">

@@ -30,7 +30,7 @@ function pagina($p, $n)
             echo "<a href='cont.php?var1=" . $next . "&var2=" . $n . "'>siguiente</a>";
             echo "</div>";
             echo ' <script>  $(".' . $n . '").css("display", "block"); </script>';
-
+            echo "<img style='width:30px; height=auto;' src='https://images.vexels.com/media/users/3/207242/isolated/preview/ee6236891ef2d9b67717737d64226b84-icono-de-hojas-verdes-de-la-naturaleza-by-vexels.png'>";
             $cont = $i["p" . $p];
             echo $cont["cont"];
         } else {

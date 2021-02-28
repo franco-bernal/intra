@@ -116,6 +116,12 @@
     border-bottom: 1px solid #363636;
 }
 
+.content-section h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 1px turquoise;
+    border-bottom: 1px solid #363636;
+}
+
 /*FORMMMMMMMMMMMMMMMMMMMMMMMM*/
 
 .sec-form {
