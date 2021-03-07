@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="src/css/fonts.css">
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/LearnLaravel.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
 
+    <script src="src/js/jquery-3.5.1.min.js"></script>
 
     <?php include 'src/php/prog.php'; ?>
     <?php
@@ -62,6 +61,7 @@
 
             <div class="burger">
                 <a class="x-burger">Cerrar[x]</a>
+                <h2>Lista</h2>
                 <?php
                 if ("" != "") {
                     echo "<a> sin lista</a>";
@@ -96,10 +96,7 @@
                     pagina($p, $n);
                 }
                 ?>
-                <div style="background-color: #363636; width:100%;height: auto; padding:10px; margin-top:20px">
-                    <p style="color:white">advertisements</p>
-                    <img src="src/img/Primer_cartel_de_Chopper.png" class="centrar" width="300px" height="auto" alt="" style="margin-top: 10px;">
-                </div>
+
             </section>
 
 

@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="src/css/fonts.css">
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/LearnLaravel.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="src/js/jquery-3.5.1.min.js"></script>
 
     <?php include 'src/php/prog.php'; ?>
     <?php
@@ -82,9 +81,9 @@
                                             </textarea>
                                             <button class="button form-boton " type="submit" name="enviar">ENVIAR
                                             </button>
-
-
                                         </form>
+
+
 
                                     </div>
                                 </div>
