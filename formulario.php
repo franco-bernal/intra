@@ -37,7 +37,7 @@
 
 
             <header>
-                <img src="src/img/ico.png" alt="">
+                <img src="icono Inndev.png" alt="">
                 <nav>
                     <ul>
                         <li>
