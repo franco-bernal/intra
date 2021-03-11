@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrCodes | Contacto</title>
-    <link rel="shortcut icon" href="src/img/ico.png" type="image/x-icon">
+    <title>InnDev - Contacto</title>
+    <link rel="shortcut icon" href="icono Inndev.png" type="image/x-icon">
 
     <link rel="stylesheet" href="src/css/bulma.min.css">
     <link rel="stylesheet" href="src/css/reset.css">
